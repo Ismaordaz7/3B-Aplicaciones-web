@@ -1,0 +1,81 @@
+/* Estilo para el cuerpo (body) */
+body {
+
+    font-family: Arial, sans-serif; /* Establece una fuente base */
+    margin: 20px; /* Establece un margen */
+    background-color: #e6f0fb; /* Establece un color de fondo */
+}
+
+/* Estilos para los encabezados (h1, h2, h3) */
+h1, h2, h3 {
+    color: #1a4789; /* Cambia el color del texto */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilo para la imagen (img) */
+img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #555; /* Añade bordes */
+    border-radius: 10px; /* Añade bordes redondeados */
+    max-width: 100%; /* Ajusta el tamaño */
+    height: auto;
+}
+
+/* Estilos para las listas (ol, ul, li) */
+ol, ul {
+    margin-left: 20px; /* Ajusta el margen izquierdo */
+    padding-left: 20px; /* Ajusta el relleno izquierdo */
+}
+
+li {
+    margin-bottom: 5px; /* Ajusta el margen inferior */
+}
+
+/* Estilo para la tabla (si la incluiste) */
+table {
+    width: 100%; /* Establece un ancho completo */
+    border-collapse: collapse; /* Colapsa los bordes */
+}
+
+th, td {
+    border: 1px solid #1a4789; /* Establece un estilo de celdas */
+    padding: 8px; /* Añade relleno */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+th {
+    background-color: #1a4789; /* Cambia el color de fondo */
+    color: #fff; /* Cambia el color del texto */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cambia el color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #ddd; /* Cambia el color de fondo al pasar el mouse */
+}
+
+#recreo {
+    background-color: #1a4789; /* Cambia el color de fondo especial */
+    color: #fff; /* Cambia el color de texto especial */
+}
+
+a {
+    color: #1a4789; /* Cambia el color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Añade subrayado al pasar el mouse */
+}
+img {
+    box-shadow: 2px 2px 5px rgba(28, 21, 226, 0.2); /* Sombra ligera */
+}
+p {
+    color: #2863d2; /* Color del texto */
+   
+}
+
